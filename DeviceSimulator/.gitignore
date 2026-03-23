@@ -1,0 +1,34 @@
+# Build outputs
+bin/
+obj/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Sensitive configuration files - NEVER commit secrets!
+.env
+.env.local
+.env.*.local
+appsettings.Production.json
+secrets.json
+
+# Logs
+logs/
+*.log
+
+# User-specific files
+Properties/launchSettings.json
+user-secrets.json
+
+# Dependencies
+node_modules/
+packages/
+
+# OS
+Thumbs.db
+.DS_Store
