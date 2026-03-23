@@ -1,0 +1,9 @@
+@TemperatureApi_HostAddress = http://localhost:5063
+
+GET temps/
+Accept: application/json
+
+GET /health
+Accept: application/json
+
+###
